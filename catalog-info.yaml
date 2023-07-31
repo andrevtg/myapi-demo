@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: myapi-demo
+  description: "My API demo"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "myapi-demo"
+    github.com/project-slug: andrevtg/myapi-demo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "veecode-platform"
+
+
+
